@@ -1,6 +1,6 @@
 import { Footer } from 'flowbite-react';
 import { Link } from 'react-router-dom';
-import { BsFacebook, BsInstagram, BsTwitter, BsGithub, BsDribbble } from 'react-icons/bs';
+import { BsFacebook, BsInstagram, BsTwitter, BsGithub, BsDribbble, BsLinkedin } from 'react-icons/bs';
 export default function FooterCom() {
   return (
     <Footer container className='border border-t-8 border-teal-500'>
@@ -47,7 +47,7 @@ export default function FooterCom() {
                 >
                   Github
                 </Footer.Link>
-                <Footer.Link href='#'>Discord</Footer.Link>
+                <Footer.Link href='https://discord.gg/rzUCU2nB'>Discord</Footer.Link>
               </Footer.LinkGroup>
             </div>
             <div>
@@ -67,12 +67,11 @@ export default function FooterCom() {
             year={new Date().getFullYear()}
           />
           <div className="flex gap-6 sm:mt-0 mt-4 sm:justify-center">
-            <Footer.Icon href='#' icon={BsFacebook}/>
-            <Footer.Icon href='#' icon={BsInstagram}/>
-            <Footer.Icon href='#' icon={BsTwitter}/>
-            <Footer.Icon href='https://github.com/sahandghavidel' icon={BsGithub}/>
-            <Footer.Icon href='#' icon={BsDribbble}/>
-
+            <Footer.Icon href='https://www.facebook.com/profile.php?id=100051050715146&mibextid=ZbWKwL' icon={BsFacebook}/>
+            <Footer.Icon href='https://www.instagram.com/code.with.akki?igsh=bWowc3kwd2k4dnk5' icon={BsInstagram}/>
+            <Footer.Icon href='https://x.com/codewithakki20?t=tEa56onT-Zef09qOwrNBnw&s=09' icon={BsTwitter}/>
+            <Footer.Icon href='https://www.github.com/codewithakki20' icon={BsGithub}/>
+            <Footer.Icon href='https://www.linkedin.com/in/ankit-patel-52469a28a' icon={BsLinkedin}/>
           </div>
         </div>
       </div>
