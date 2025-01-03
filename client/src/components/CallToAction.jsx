@@ -23,7 +23,7 @@ export default function CallToAction() {
       </div>
 
       {/* VibeMeet Section */}
-      <div className="flex-1 justify-center flex flex-col">
+      <div className="flex-1 justify-center flex flex-col mt-5">
         <h2 className='text-2xl'>
           VibeMeet is a full-stack web application replicating Zoom's core functionalities, including real-time video conferencing, chat, and collaboration features.
         </h2>
@@ -36,7 +36,7 @@ export default function CallToAction() {
           </a>
         </Button>
         <div className="p-7 flex-1 mt-4 flex justify-center items-center">
-          <img src="../images/vibmeet1.jpg" alt="vibemeet" className="max-w-full h-auto" />
+          <img src="../images/vibmeet1.jpg" alt="vibemeet" className="w-48 h-auto" />
         </div>
       </div>
 
